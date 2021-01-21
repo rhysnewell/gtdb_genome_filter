@@ -4,12 +4,10 @@ Small script to parse and filter out genomes in the GTDB
 # Installation
 
 ```
-git clone https://github.com/rhysnewell/aviary.git
-cd aviary
-conda env create -n aviary -f aviary.yml
-conda activate aviary
+git clone https://github.com/rhysnewell/gtdb_genome_filter.git
+cd gtdb_genome_filter
 pip install --editable .
-aviary recover --help
+gtdb_filter filter --help
 ```
 
 # Requirements
